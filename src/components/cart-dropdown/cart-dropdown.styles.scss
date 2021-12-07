@@ -10,12 +10,18 @@
     top: 90px;
     right: 40px;
     z-index: 5;
+    justify-content: center;
   
+    .empty-message {
+      margin-top: 2em;
+    }
+
     .cart-items {
       height: 240px;
       display: flex;
       flex-direction: column;
       overflow: scroll;
+      align-items: center;
     }
   
     button {
