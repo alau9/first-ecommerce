@@ -58,6 +58,7 @@ class App extends React.Component {
            )
           }
         />
+        <Route path="shop/*" element={<ShopPage />} />
         </Routes>
       </div>
      )
